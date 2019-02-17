@@ -17,7 +17,7 @@
 # Here Importing Modules
 # Importing Modules
 try:
-    import Tkinter, ttk,tkFileDialog
+    import Tkinter,ttk,tkFileDialog
 except:
     import tkinter as Tkinter
     import tkinter.ttk as ttk 
@@ -174,6 +174,6 @@ if __name__=='__main__':
     root=Tkinter.Tk(className='Python Song List ')
     playing=Tkinter.StringVar()
     var1=Tkinter.StringVar() # For Playing Song
-    Tkinter.Entry(root, textvariable=var1).pack(side='top')   
+    Tkinter.Entry(root, textvariable=var1).pack(side='top')
     main(root, var1)
     root.mainloop()
